@@ -22,6 +22,7 @@ It's a Flappy Bird look-alike game made in Unity with use of ECS.
 #### Extra-code
 This should be added to EcsUguiActionBase.cs from [LeoECS Lite uGui Bindings](https://github.com/Leopotam/ecslite-unity-ugui)
 
+```
 public void SetWidgetName(string widgetName)
 {
     if (string.IsNullOrWhiteSpace(widgetName))
@@ -35,5 +36,6 @@ public void SetWidgetName(string widgetName)
     ValidateEmitter();
     _emitter.SetNamedObject(_widgetName, gameObject);
 }
+```
 
 Regards, Oleg [Knight Rider] Tolmachev.
