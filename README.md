@@ -2,8 +2,6 @@
 #### Jumpy Cube ECS Demo Game.
 Target OS: Android (but also can target PC).
 
-Unity 2022, Visual Studio 2019
-
 #### Brief:
 It's a Flappy Bird look-alike game made in Unity with use of ECS.
 
@@ -15,5 +13,27 @@ It's a Flappy Bird look-alike game made in Unity with use of ECS.
 
 #### Core Gameplay:
 - I guess, it's like in Flappy Bird)
+
+#### Requirements
+- Unity 2022
+- Visual Studio 2019
+- [Zenject](https://github.com/modesttree/Zenject)
+
+#### Extra-code
+This should be added to EcsUguiActionBase.cs from [LeoECS Lite uGui Bindings](https://github.com/Leopotam/ecslite-unity-ugui)
+
+public void SetWidgetName(string widgetName)
+{
+    if (string.IsNullOrWhiteSpace(widgetName))
+        return;
+
+    if (_emitter)
+        _emitter.SetNamedObject(_widgetName, null);
+
+    _widgetName = widgetName;
+
+    ValidateEmitter();
+    _emitter.SetNamedObject(_widgetName, gameObject);
+}
 
 Regards, Oleg [Knight Rider] Tolmachev.
