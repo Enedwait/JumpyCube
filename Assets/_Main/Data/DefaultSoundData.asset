@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a80f2e6297bc054f927abc55c255c7a, type: 3}
+  m_Name: DefaultSoundData
+  m_EditorClassIdentifier: 
+  _click: {fileID: 8300000, guid: 44ef77db9b54bdc44abc3f380ce9ed93, type: 3}
+  _jump: {fileID: 8300000, guid: ed72477967b513f4c8e39a1034446a59, type: 3}
+  _obstacleHit: {fileID: 8300000, guid: e07d4316f0f05af4e981db6f47e87f8f, type: 3}
+  _groundHit: {fileID: 8300000, guid: 96ac6a89b5c20d949a57b5fbf5c6ebe1, type: 3}
+  _ceilingHit: {fileID: 8300000, guid: f389555cb88e68344824bd9bc7d1fff0, type: 3}
+  _scoreIncreased: {fileID: 8300000, guid: 50abfadfdce6881458b67fd80a928b23, type: 3}
+  _gameOver: {fileID: 8300000, guid: 20ba6ad63fbf03d42aa2ab994f2390d1, type: 3}
+  _gameOverMusic: {fileID: 8300000, guid: 7c2db7c4a62ee6e4cbce40b09df1f456, type: 3}
+  _menuMusic: {fileID: 8300000, guid: a965c17019bc54745b4db5b71759bd24, type: 3}
+  _gameMusic: {fileID: 8300000, guid: 1f5cd4ee3da6f7f40a3066049c9cb8a1, type: 3}

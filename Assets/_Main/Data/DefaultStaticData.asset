@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1f6a7fa1041fc46affdeb9ee31905a, type: 3}
+  m_Name: DefaultStaticData
+  m_EditorClassIdentifier: 
+  _playerPrefab: {fileID: 7300425407342349993, guid: 9ac8b9820d7fb234a90b62663a4480f5,
+    type: 3}
+  _obstaclePrefab: {fileID: 7145403015092852905, guid: bea46620af132b84f85c939b8fc3b8cf,
+    type: 3}
+  _obstacleSpawnDelay: 2
+  _obstacleSpeed: 3
+  _minGap: 2.5
+  _maxGap: 6
+  _changeSpeedDelay: 5
+  _changeSpeedFactor: 1.11
+  _changeObstacleDelayFactor: 1.02
+  _changeScoreFactor: 1.1
