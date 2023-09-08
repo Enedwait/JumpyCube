@@ -1,6 +1,6 @@
 # JumpyCube
 #### Jumpy Cube ECS Demo Game.
-Target OS: Android (but also can target PC).
+Play: https://play.google.com/store/apps/details?id=com.okrt.jumpycube (Android)
 
 #### Brief:
 It's a Flappy Bird look-alike game made in Unity with use of ECS.
